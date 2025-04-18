@@ -179,7 +179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "B7 Resistor generic Template"
+		(property "Description" "B7 Resistor generic template"
 			(at 0 0 0)
 			(effects
 				(font
