@@ -2,3 +2,11 @@
 B7-KiCad_libs-backups/
 
 *.bak
+
+B7-KiCad_Test/#auto_saved_files#
+
+B7-KiCad_Test/production/
+
+*.lck
+
+B7-KiCad_Test/_autosave-B7-KiCad_libs.kicad_sch
