@@ -1,5 +1,5 @@
 (sym_lib_table
   (version 7)
   (lib (name "B7-resistor_SMD")(type "KiCad")(uri "${KIPRJMOD}/../libs/B7-resistor_SMD.kicad_sym")(options "")(descr ""))
-  (lib (name "partd")(type "HTTP")(uri "D:/Arbeitsordner/KiCAD-Arbeitsordner/partd.kicad_httplib")(options "")(descr ""))
+  (lib (name "partd")(type "HTTP")(uri "D:/Arbeitsordner/KiCAD-Arbeitsordner/partd.kicad_httplib")(options "")(descr "")(disabled)(hidden))
 )

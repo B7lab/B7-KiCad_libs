@@ -5,11 +5,11 @@
 	(uuid "6b4731e3-d888-49a7-b605-ecfc8cddd59c")
 	(paper "A4")
 	(lib_symbols
-		(symbol "partd:STM32F446VET6TR"
+		(symbol "B7-resistor_SMD:STM32F446VETx"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U?"
+			(property "Reference" "U"
 				(at -20.32 67.31 0)
 				(effects
 					(font
@@ -37,7 +37,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://partdb.midnight-worker.de/en/part/2/info"
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32f446ve.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -46,7 +46,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Microcontroller STM32F446, 512kB Flash, 100pin, LQFP"
+			(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 512KB flash, 128KB RAM, 180 MHz, 1.8-3.6V, 81 GPIO, LQFP100"
 				(at 0 0 0)
 				(effects
 					(font
@@ -64,61 +64,7 @@
 					(hide yes)
 				)
 			)
-			(property "Category" "Microcontroller"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "STMicroelectronics"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "STM32F446VET6TR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturing Status" "Active"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Part-DB Footprint" "LQFP-100_14x14mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Part-DB ID" "2"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Microcontroller,STM32"
+			(property "ki_keywords" "Arm Cortex-M4 STM32F4 STM32F446"
 				(at 0 0 0)
 				(effects
 					(font
@@ -136,7 +82,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "STM32F446VET6TR_0_1"
+			(symbol "STM32F446VETx_0_1"
 				(rectangle
 					(start -20.32 -66.04)
 					(end 20.32 66.04)
@@ -149,7 +95,7 @@
 					)
 				)
 			)
-			(symbol "STM32F446VET6TR_1_1"
+			(symbol "STM32F446VETx_1_1"
 				(pin input line
 					(at -25.4 60.96 0)
 					(length 5.08)
@@ -2456,17 +2402,17 @@
 		)
 	)
 	(symbol
-		(lib_id "partd:STM32F446VET6TR")
-		(at 95.25 92.71 0)
+		(lib_id "B7-resistor_SMD:STM32F446VETx")
+		(at 67.31 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "92e68445-283d-419a-b039-c0cbbd396252")
-		(property "Reference" "U1"
-			(at 99.9333 160.4701 0)
+		(uuid "0f073894-6d0d-4c7f-93e7-bf954d6dd7cb")
+		(property "Reference" "U2"
+			(at 71.9933 163.0101 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2475,7 +2421,7 @@
 			)
 		)
 		(property "Value" "STM32F446VETx"
-			(at 99.9333 162.8944 0)
+			(at 71.9933 165.4344 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2484,7 +2430,7 @@
 			)
 		)
 		(property "Footprint" "Package_QFP:LQFP-100_14x14mm_P0.5mm"
-			(at 74.93 158.75 0)
+			(at 46.99 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2493,8 +2439,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://partdb.midnight-worker.de/en/part/2/info"
-			(at 95.25 92.71 0)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32f446ve.pdf"
+			(at 67.31 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2502,8 +2448,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Microcontroller STM32F446, 512kB Flash, 100pin, LQFP"
-			(at 95.25 92.71 0)
+		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 512KB flash, 128KB RAM, 180 MHz, 1.8-3.6V, 81 GPIO, LQFP100"
+			(at 67.31 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2512,372 +2458,318 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 95.25 92.71 0)
+			(at 67.31 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Category" "Microcontroller"
-			(at 95.25 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "STMicroelectronics"
-			(at 95.25 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "STM32F446VET6TR"
-			(at 95.25 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturing Status" "Active"
-			(at 95.25 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part-DB Footprint" "LQFP-100_14x14mm"
-			(at 95.25 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part-DB ID" "2"
-			(at 95.25 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "94"
-			(uuid "76ca64a5-0d63-4b42-bd05-4f8b8ea38042")
-		)
-		(pin "12"
-			(uuid "2e1f5db0-3df1-406f-a2c1-e5c5e99ffd84")
-		)
-		(pin "39"
-			(uuid "c72818fa-1285-405f-8934-dab631a5a8c8")
-		)
-		(pin "41"
-			(uuid "f5a04f9d-5a1d-435c-946c-4b6af4a86a97")
-		)
-		(pin "44"
-			(uuid "c36416be-b91a-4f0b-80d7-31cfd71f7c16")
-		)
-		(pin "46"
-			(uuid "c686c966-40f5-4160-a1f2-3b715b7b7d63")
-		)
-		(pin "81"
-			(uuid "7ae30dd6-e722-4424-a3e0-048952fa84f8")
-		)
-		(pin "3"
-			(uuid "4a8f4297-32da-4fee-8ed0-87d63312b942")
-		)
-		(pin "98"
-			(uuid "a9d91a6a-e417-494c-80fc-428af0d5f46e")
-		)
-		(pin "43"
-			(uuid "2c205b2f-0248-40f4-9ff9-1e616d728e48")
-		)
-		(pin "14"
-			(uuid "b4b16a00-ceed-4692-84dd-fb71d2bee586")
-		)
-		(pin "21"
-			(uuid "db059722-71f0-4276-bcc3-5f3ab65b8131")
-		)
-		(pin "13"
-			(uuid "d7d4baaa-439c-4b47-afda-c5889c330c6b")
-		)
-		(pin "97"
-			(uuid "4f8424da-92e5-4526-9f7e-6232a95e6323")
-		)
-		(pin "1"
-			(uuid "a580bf30-d648-4b39-9e2d-f5c8a0b6c11a")
-		)
-		(pin "2"
-			(uuid "4c316711-3f22-4633-ae5f-1c1d494eb1dd")
-		)
-		(pin "4"
-			(uuid "ed47a8b4-1aeb-423a-a83b-6b9757237712")
-		)
-		(pin "5"
-			(uuid "641e83b2-ce1b-4c7e-92c1-60e37b1881e3")
-		)
-		(pin "38"
-			(uuid "f4ca560d-3607-47fc-8a89-61ad17b3f558")
-		)
-		(pin "40"
-			(uuid "d5b9a9f9-ed7f-47be-b910-4b209759a489")
-		)
-		(pin "42"
-			(uuid "55c48664-c92a-4557-9994-8fcd75cb5315")
-		)
-		(pin "45"
-			(uuid "98658729-d969-452a-89a4-7179e2247a52")
-		)
-		(pin "61"
-			(uuid "87aff4e6-22ed-473a-b73e-d85cc4d734a1")
-		)
-		(pin "6"
-			(uuid "af0e9d79-8381-46e1-bb88-f3891d5fb55a")
-		)
-		(pin "37"
-			(uuid "5e52e54c-4747-4314-8a0f-1e78d5ef561b")
-		)
-		(pin "10"
-			(uuid "70e90b0f-81ec-46be-a39c-d20c210df724")
-		)
-		(pin "70"
-			(uuid "a9f0edf8-6ad3-45d2-93f1-7a7bbfce38e1")
-		)
-		(pin "90"
-			(uuid "ae8db488-2add-4c7e-a30f-c60195febeac")
-		)
-		(pin "95"
-			(uuid "775243e4-86ed-4a31-b125-bc348fac6be3")
-		)
-		(pin "88"
-			(uuid "d2d728ff-56ad-4ab4-a5e3-c89a48a2cf27")
-		)
-		(pin "11"
-			(uuid "4c0b9418-1760-4830-bfe9-2320ca8c8779")
-		)
-		(pin "19"
-			(uuid "08b74062-ab88-405b-bc3f-a714c4371120")
-		)
-		(pin "27"
-			(uuid "4caf843c-9e25-4487-8c36-dcf3e64c1679")
-		)
-		(pin "20"
-			(uuid "9e126dfd-23a6-4d4b-9581-566df202a8ef")
-		)
-		(pin "58"
-			(uuid "183d2e7b-3c60-403c-a763-f613eed1dd81")
-		)
-		(pin "87"
-			(uuid "3dcf99e4-cb38-4758-9982-8c26d9acb9df")
-		)
-		(pin "59"
-			(uuid "4ca90913-870a-42fd-85be-c6d000008348")
-		)
-		(pin "55"
-			(uuid "2c14e423-5f6a-4beb-85ac-efca3bec9458")
-		)
-		(pin "75"
-			(uuid "edc9604d-b0ae-4ca5-998c-8b18f4819dbf")
-		)
-		(pin "23"
-			(uuid "60104ead-1083-430c-9ff5-fea818e92729")
-		)
-		(pin "29"
-			(uuid "ccff7cc8-9b81-46ec-bc77-70fb291d88a3")
-		)
-		(pin "48"
-			(uuid "4735ddb7-ccfe-4b60-b46a-52198ee18a82")
-		)
-		(pin "84"
-			(uuid "acfd713a-fcdb-47eb-84d3-5a1189021404")
-		)
-		(pin "30"
-			(uuid "a1c0b1f1-5d25-4b07-abe4-62a704ae7838")
-		)
-		(pin "31"
-			(uuid "a5832cef-38b3-44e7-9df8-c3e01dea0fdb")
-		)
-		(pin "67"
-			(uuid "77f59c57-4299-4c19-a984-c669586d5243")
-		)
-		(pin "69"
-			(uuid "52974a99-6cee-4cdd-8163-61c05991250b")
-		)
-		(pin "71"
-			(uuid "03201e10-62c2-4ccd-81b6-f2c4efc9779f")
-		)
-		(pin "72"
-			(uuid "95b1a58f-d445-4b38-9668-962764aef813")
-		)
-		(pin "73"
-			(uuid "ab9f637d-d3da-4e0f-bf7f-1e5c6219e17a")
-		)
-		(pin "83"
-			(uuid "b1bcb291-1051-4c33-9b69-d242cfeafef4")
-		)
-		(pin "26"
-			(uuid "389cb5a9-6ea4-4759-b250-15cdbcc59b7b")
-		)
-		(pin "99"
-			(uuid "2c34c519-175d-4732-927d-08509625c7c3")
-		)
-		(pin "25"
-			(uuid "c8fc91e0-f96f-476e-b333-e51eced45d85")
-		)
-		(pin "56"
-			(uuid "9b084598-90b0-44bf-8b3a-f37f7cd12b8c")
-		)
-		(pin "82"
-			(uuid "822004df-2692-4ca9-8dd8-bbc73f5bdb1a")
-		)
-		(pin "57"
-			(uuid "db630781-9051-4f8b-82d6-f2b610991010")
-		)
-		(pin "28"
-			(uuid "34195159-8303-4239-8e9e-4f5896f5818d")
-		)
-		(pin "85"
-			(uuid "15d283be-0e2e-4d7d-9a6c-e59cd2aba090")
-		)
-		(pin "49"
-			(uuid "98b1d79d-7226-41e1-9b5b-5bae1d4b3cc6")
-		)
-		(pin "86"
-			(uuid "a8c3382e-dfff-47c1-8ff7-40a406305d9d")
-		)
-		(pin "60"
-			(uuid "a2b80b99-d1c8-4e0d-a794-a0482603a056")
-		)
-		(pin "74"
-			(uuid "d0cbe4ab-bf10-4c08-b17a-aa11f8536e4f")
-		)
-		(pin "50"
-			(uuid "617b7fae-3697-4e32-9c1f-f169bb0dc9bc")
-		)
-		(pin "100"
-			(uuid "fb6ef034-4a3a-4549-8161-e124f851f69e")
-		)
-		(pin "24"
-			(uuid "7d474cd3-88df-49f6-b85e-d17215883caf")
-		)
-		(pin "68"
-			(uuid "af5cb3d4-03ca-48b4-82fa-8929f21a0585")
-		)
-		(pin "76"
-			(uuid "245204bc-8231-49df-be28-dc638f40716a")
-		)
-		(pin "62"
-			(uuid "f0f3127c-4621-47c5-877d-79e2b4f53d03")
-		)
-		(pin "22"
-			(uuid "c2c859fb-1ba4-4dfb-8979-9885c82b8fe5")
-		)
-		(pin "77"
-			(uuid "986c87f5-c69e-4225-9805-09f18753097f")
-		)
-		(pin "32"
-			(uuid "f7983e3e-fce9-47da-8d50-202469add8c7")
-		)
-		(pin "35"
-			(uuid "2ffd6b14-98c4-4f11-a936-d579bc1ada8c")
-		)
-		(pin "36"
-			(uuid "966e1dc6-72c3-43c6-a248-647da17b58d6")
-		)
-		(pin "89"
-			(uuid "b9924392-6151-455b-9092-23d2b8db62f7")
-		)
-		(pin "91"
-			(uuid "7f0bde9a-4524-41c6-8b40-dc132c30dc77")
-		)
-		(pin "92"
-			(uuid "4ccc9757-fde2-478a-9174-27c8d9c456af")
-		)
-		(pin "93"
-			(uuid "618b908f-65d4-4b92-a7b9-04b988f06710")
-		)
-		(pin "96"
-			(uuid "1467e3f9-c470-4535-b813-103e9ecc3302")
-		)
-		(pin "47"
-			(uuid "daa1a04d-a989-4077-b2ef-87aad9a94980")
-		)
-		(pin "51"
-			(uuid "a92b1a5a-9cde-48cb-b877-014e71daaa66")
-		)
-		(pin "52"
-			(uuid "ebd0e0c0-4bb7-4a8b-a6c5-7e68a484b866")
-		)
-		(pin "53"
-			(uuid "6a4db2a7-6229-441b-9381-bfabe4497553")
-		)
-		(pin "15"
-			(uuid "f3c32edc-b7a7-4e03-b4ea-741ab4e9e63d")
-		)
-		(pin "54"
-			(uuid "b907394e-ef12-46a9-86e7-1a9f9a4ed547")
-		)
-		(pin "16"
-			(uuid "9fb37cc8-ed06-496b-8d85-9d8ac6874892")
-		)
-		(pin "66"
-			(uuid "ae401db8-308e-46fc-bf65-f8f0692891c2")
-		)
-		(pin "9"
-			(uuid "9264d48b-8a99-48ac-ab71-cf2802636be2")
-		)
-		(pin "63"
-			(uuid "50e45cc0-7c83-400b-899e-ddd9da8e0ceb")
-		)
-		(pin "18"
-			(uuid "6f8b8b4f-1503-4bea-a354-c89bfa86e9f2")
-		)
-		(pin "8"
-			(uuid "8275a6e1-d70c-4f2b-aaab-2d1fdbdc6235")
 		)
 		(pin "79"
-			(uuid "6d87762f-d629-476e-8923-528b999a83ae")
+			(uuid "2eb22cbc-4679-44a9-9366-b14a87bb6acd")
 		)
-		(pin "34"
-			(uuid "1e3e5cce-3c0d-4b0c-bfff-387429c9d0bd")
-		)
-		(pin "65"
-			(uuid "12062eab-0da5-4562-aaad-8103f5334c80")
-		)
-		(pin "7"
-			(uuid "fa567654-542a-4370-af34-fc9e279caa20")
-		)
-		(pin "80"
-			(uuid "b4593cb5-4ab1-4e9f-8f0f-b829845d1f0f")
-		)
-		(pin "33"
-			(uuid "c10fafff-ed74-48b0-8b4b-d3542173666d")
-		)
-		(pin "17"
-			(uuid "2b0bf7b1-e7e5-4c14-af37-b1123c34cecc")
-		)
-		(pin "64"
-			(uuid "7d145c39-fd64-4cbf-a3e8-ee2e4af93afa")
+		(pin "18"
+			(uuid "f956d130-469f-461e-a246-f632eddaa0be")
 		)
 		(pin "78"
-			(uuid "44e6a54c-7855-46e9-964c-5b4115d2ecac")
+			(uuid "146e855e-cd01-44af-a796-8fd3190e0a1a")
+		)
+		(pin "8"
+			(uuid "abd7ab34-1961-4f9d-a6dd-8e3e0ee1e989")
+		)
+		(pin "9"
+			(uuid "a8dc3e6a-aefb-4bb5-bb4c-674888a003b9")
+		)
+		(pin "63"
+			(uuid "0d83f556-a28a-4dde-aa61-1f7d144d0eca")
+		)
+		(pin "17"
+			(uuid "d1b9a737-04a7-46e1-9248-16bc2a658bd2")
+		)
+		(pin "66"
+			(uuid "2a2a89be-4b9a-4336-beda-8cbcd616df6a")
+		)
+		(pin "33"
+			(uuid "1d5be8f6-6e23-4c90-83c8-96efdf38a28a")
+		)
+		(pin "34"
+			(uuid "e580bbb8-03ea-4923-961a-cd4251339057")
+		)
+		(pin "65"
+			(uuid "c40b85de-ba13-4757-9b80-244a4d4a0294")
+		)
+		(pin "80"
+			(uuid "6fbb79b2-cae6-4e0b-af00-6f05b81aeee8")
+		)
+		(pin "7"
+			(uuid "23ae6c00-9227-4bb6-9da2-bebb4a0812cf")
+		)
+		(pin "64"
+			(uuid "a2db804d-f16d-4c6c-ae91-6327d2bc8e6c")
+		)
+		(pin "16"
+			(uuid "4a4fad79-0c70-46a7-b3fd-0422a5613fb9")
+		)
+		(pin "55"
+			(uuid "826869ac-57eb-41d7-923b-9aec6d78409e")
+		)
+		(pin "48"
+			(uuid "30a64d5d-49b8-4646-a036-6063bbe13cbe")
+		)
+		(pin "46"
+			(uuid "e413314d-f863-411e-bde9-b17f6ad6ded2")
+		)
+		(pin "85"
+			(uuid "26a50c0f-108e-492a-bcbb-26a92611b697")
+		)
+		(pin "75"
+			(uuid "d70b08ba-d11b-4edc-a183-43b8b58ac6a7")
+		)
+		(pin "83"
+			(uuid "dbe520cb-15fa-4553-b5b3-add5d197294c")
+		)
+		(pin "97"
+			(uuid "34a5b4df-9436-410f-afd5-5e63a640d7a1")
+		)
+		(pin "40"
+			(uuid "1f9dc021-5550-4d2f-b8ce-6d2f617c8986")
+		)
+		(pin "10"
+			(uuid "fc2ba84a-5da9-4539-8769-6c78f1f11638")
+		)
+		(pin "3"
+			(uuid "fb0b76a2-acdd-4743-a025-01b9a0945ebe")
+		)
+		(pin "44"
+			(uuid "1db9b0bd-4cdb-470c-af86-791836d52f40")
+		)
+		(pin "94"
+			(uuid "24f1d1fd-b6f7-436f-92a3-56ac62b48f97")
+		)
+		(pin "56"
+			(uuid "5caf966b-2da7-4e6c-a713-b1a056cfdcfe")
+		)
+		(pin "14"
+			(uuid "6ae4fdc8-e650-459d-8ed5-6379acb9bd3a")
+		)
+		(pin "81"
+			(uuid "a5b37ed4-dc19-4cc8-9c0b-ce910f3118e5")
+		)
+		(pin "82"
+			(uuid "9032975d-5f54-454d-9f50-dde52d04bc91")
+		)
+		(pin "62"
+			(uuid "3058e744-f886-42b1-8400-38921bed831c")
+		)
+		(pin "99"
+			(uuid "d3db7f75-e16b-49d1-a40a-e1e6d621bcee")
+		)
+		(pin "6"
+			(uuid "1a26f992-3931-4304-99ea-2c8b784532e0")
+		)
+		(pin "50"
+			(uuid "0d6c7aa1-9e33-4558-b8e4-16e42cb37100")
+		)
+		(pin "20"
+			(uuid "dcc84841-f63f-42af-8252-384d7ede649e")
+		)
+		(pin "25"
+			(uuid "9d649052-9fc3-4888-b101-6379ed718848")
+		)
+		(pin "60"
+			(uuid "7d00b299-c049-45b5-afaf-6bd8dca53495")
+		)
+		(pin "27"
+			(uuid "310198b9-0821-4271-9bcf-8d75d52cd728")
+		)
+		(pin "74"
+			(uuid "a669f9dc-4a5e-4478-8f96-5eb59bc1a94e")
+		)
+		(pin "23"
+			(uuid "a032cae6-2de2-48da-a785-915b9b0b5c25")
+		)
+		(pin "43"
+			(uuid "35f37f6f-15d8-4265-8c80-de05e98f9991")
+		)
+		(pin "24"
+			(uuid "e37d188f-b135-4076-be6b-42f13e673d1f")
+		)
+		(pin "11"
+			(uuid "4ae00b25-020a-46c5-ae19-4b871a71abfe")
+		)
+		(pin "57"
+			(uuid "5a4efeb2-ef30-42eb-baf5-a7a3dad63e72")
+		)
+		(pin "45"
+			(uuid "a4769be2-3fd8-485e-b8c8-392a05535268")
+		)
+		(pin "58"
+			(uuid "427a5a9f-bafa-4bf1-9769-da81a2684c3d")
+		)
+		(pin "61"
+			(uuid "725e030b-9eb0-4394-85a2-348afb1a40a1")
+		)
+		(pin "73"
+			(uuid "fcbf5135-7355-406a-b38e-cc71b0cfef30")
+		)
+		(pin "5"
+			(uuid "f4f99eac-6029-4f62-aa24-0d3d89258fc1")
+		)
+		(pin "2"
+			(uuid "505075c3-737a-435f-9a94-e78732048995")
+		)
+		(pin "41"
+			(uuid "47643eb2-9635-49a2-bc87-9aab10f44724")
+		)
+		(pin "86"
+			(uuid "2d078033-c96c-4393-9575-a4bc91d53f4a")
+		)
+		(pin "13"
+			(uuid "a67f16ef-1600-4c7b-a437-37c4f2f3b4e2")
+		)
+		(pin "38"
+			(uuid "359cabc6-4aba-4bee-9c60-79771477eaf4")
+		)
+		(pin "4"
+			(uuid "4b751247-19e7-4d9f-999f-755900a2be46")
+		)
+		(pin "42"
+			(uuid "6a5647d5-a80a-49b2-8ba0-9a514b667961")
+		)
+		(pin "98"
+			(uuid "fbfc6296-312e-4ef0-9bb8-1c590963185b")
+		)
+		(pin "21"
+			(uuid "a5ceb751-591b-4c6f-a28a-4cf663d1c4fd")
+		)
+		(pin "12"
+			(uuid "4904df19-e9f8-4460-abee-31046319e6e4")
+		)
+		(pin "1"
+			(uuid "8232bf1c-1450-41c9-89e3-d622c681f599")
+		)
+		(pin "39"
+			(uuid "005b35a3-e0bf-42c0-aa51-ae092dcbe50d")
+		)
+		(pin "84"
+			(uuid "a23c9cb9-5542-437d-a25a-0a1e2aa2ec57")
+		)
+		(pin "87"
+			(uuid "c5050b35-1394-4d99-81ab-d8c1e4d81917")
+		)
+		(pin "88"
+			(uuid "2bc1e0f7-5386-4fe1-8717-f17f1124fec8")
+		)
+		(pin "59"
+			(uuid "2c5bcc49-0d5d-4d63-b8c2-566c57ae01fa")
+		)
+		(pin "19"
+			(uuid "b310daff-0999-48ca-b878-8737550add3a")
+		)
+		(pin "28"
+			(uuid "dd9c2df5-ab47-4d34-a3fa-a4dbf4f14bc7")
+		)
+		(pin "49"
+			(uuid "b3035901-595a-49d1-b128-6ab544328af0")
+		)
+		(pin "100"
+			(uuid "70666aba-977f-41ca-9d20-8cf714b21625")
+		)
+		(pin "26"
+			(uuid "049f553f-3ec6-4340-90a9-683707bda0d4")
+		)
+		(pin "29"
+			(uuid "e1b79aa5-71e7-4262-a7d9-248f1b6d5351")
+		)
+		(pin "30"
+			(uuid "7bca922e-84dc-4190-a9ef-290e3a74aa7b")
+		)
+		(pin "31"
+			(uuid "4aeb945b-4998-4f52-a6f4-c1c364cd28c4")
+		)
+		(pin "32"
+			(uuid "f94e7ee5-0096-45bc-92fc-619bbb9a4b30")
+		)
+		(pin "67"
+			(uuid "ee463115-3a03-4c09-beb0-411132f080dc")
+		)
+		(pin "68"
+			(uuid "e8d0fad8-1905-45dd-87b8-26e705505f6a")
+		)
+		(pin "22"
+			(uuid "f10fcaf0-0b8b-4c8c-8e51-f88836b30a0e")
+		)
+		(pin "69"
+			(uuid "f75128b8-81b7-46d2-a8d7-9b15d28ff53a")
+		)
+		(pin "90"
+			(uuid "8775cc7b-0a53-44fe-b41a-f23f498c7b73")
+		)
+		(pin "76"
+			(uuid "ef88117c-4ae2-43eb-b553-440589f529b6")
+		)
+		(pin "35"
+			(uuid "23b4cf8b-8ba2-4fd0-9f59-dac493eb90c1")
+		)
+		(pin "96"
+			(uuid "50a134db-19ab-40ab-aa12-1159daabe0b8")
+		)
+		(pin "51"
+			(uuid "3f53823b-c23b-48fc-9f4e-4524fa507eab")
+		)
+		(pin "52"
+			(uuid "ae3440c0-6f27-424e-92ee-e0edd2319d4f")
+		)
+		(pin "77"
+			(uuid "41ef9823-3f7b-4d2a-9ce6-7773cee27a90")
+		)
+		(pin "89"
+			(uuid "469f9af2-0673-4d35-9645-85aa4651dd54")
+		)
+		(pin "54"
+			(uuid "1d0201fd-b1ab-4909-864e-597b02a764f9")
+		)
+		(pin "71"
+			(uuid "090faef8-afe0-4be4-9dda-0bc5f150aa32")
+		)
+		(pin "72"
+			(uuid "60a55e26-fb03-4c05-8f90-a21176c5b6d7")
+		)
+		(pin "92"
+			(uuid "e94c8d6c-c9d6-452a-9142-56f7052d94ba")
+		)
+		(pin "15"
+			(uuid "4f886cf6-a224-447a-bf1f-91b0406f6404")
+		)
+		(pin "53"
+			(uuid "10a12430-e6d4-49d7-a022-47cb133b0f18")
+		)
+		(pin "70"
+			(uuid "3c4054bd-c033-4ea9-a9f5-1641bd61ce02")
+		)
+		(pin "37"
+			(uuid "7439c43d-6b6f-4472-a4fd-3a6cd887a3c9")
+		)
+		(pin "93"
+			(uuid "28027882-e827-43da-b012-7b83a459c05a")
+		)
+		(pin "47"
+			(uuid "0db2e151-b6df-443b-99a3-1b53c020c47b")
+		)
+		(pin "91"
+			(uuid "cb60ffa4-8136-427d-9c85-c0c507c350fa")
+		)
+		(pin "95"
+			(uuid "e684d27a-5873-40ee-8ab5-17457e70c10a")
+		)
+		(pin "36"
+			(uuid "9126df24-14ac-431b-adc3-3eba629ac0a8")
 		)
 		(instances
 			(project ""
 				(path "/6b4731e3-d888-49a7-b605-ecfc8cddd59c"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
